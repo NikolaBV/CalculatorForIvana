@@ -38,20 +38,31 @@ namespace CalculatorForIvana2
                 {
                     textBox1_result.Text = textBox1_result.Text + button.Text;
                 } 
-            }else
+            }
+            else
+            {
                 textBox1_result.Text = textBox1_result.Text + button.Text;
+            }
+                
         }
+        
 
         private void OperatorClick(object sender, EventArgs e)
         {
             Button button = (Button)sender;
 
-            if(resultValue != 0 && !isOperationPerformed)
+            if (resultValue != 0 && !isOperationPerformed)
             {
                 buttonEqual.PerformClick();
                 operationPerformed = button.Text;
                 CurrentOperation.Text = resultValue + " " + operationPerformed;
                 isOperationPerformed = true;
+            }
+            else if(textBox1_result.Text == ",")
+            {
+                MessageBox.Show("Incorrect entry, try again");
+                ClearEntry(sender, e);
+
             }
             else
             {
@@ -59,7 +70,8 @@ namespace CalculatorForIvana2
                 resultValue = double.Parse(textBox1_result.Text);
                 CurrentOperation.Text = resultValue + " " + operationPerformed;
                 isOperationPerformed = true;
-            } 
+            }
+
         }
 
         private void ClearEntry(object sender, EventArgs e)

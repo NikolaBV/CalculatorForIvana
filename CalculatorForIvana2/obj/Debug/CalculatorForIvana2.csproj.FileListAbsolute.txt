@@ -9,3 +9,7 @@ C:\Users\User\source\repos\CalculatorForIvana2\CalculatorForIvana2\obj\Debug\Cal
 C:\Users\User\source\repos\CalculatorForIvana2\CalculatorForIvana2\obj\Debug\CalculatorForIvana2.csproj.CoreCompileInputs.cache
 C:\Users\User\source\repos\CalculatorForIvana2\CalculatorForIvana2\obj\Debug\CalculatorForIvana2.exe
 C:\Users\User\source\repos\CalculatorForIvana2\CalculatorForIvana2\obj\Debug\CalculatorForIvana2.pdb
+C:\Users\User\source\repos\CalculatorForIvana2\CalculatorForIvana2\bin\Debug\CalculatorForIvana2.exe.manifest
+C:\Users\User\source\repos\CalculatorForIvana2\CalculatorForIvana2\bin\Debug\CalculatorForIvana2.application
+C:\Users\User\source\repos\CalculatorForIvana2\CalculatorForIvana2\obj\Debug\CalculatorForIvana2.exe.manifest
+C:\Users\User\source\repos\CalculatorForIvana2\CalculatorForIvana2\obj\Debug\CalculatorForIvana2.application
